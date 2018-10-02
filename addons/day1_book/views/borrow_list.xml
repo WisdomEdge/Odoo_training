@@ -1,0 +1,42 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<odoo>
+    <data>
+        <!--tree-->
+        <record model="ir.ui.view" id="borrow_list_tree">
+            <field name="name">Borrow List</field>
+            <field name="model">book_borrow</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="id"/>
+                    <field name="borrower" string="Borrower name"/>
+                </tree>
+            </field>
+        </record>
+
+        <!--from-->
+        <record model="ir.ui.view" id="borrow_list_form">
+            <field name="name">Borrow List</field>
+            <field name="model">book_borrow</field>
+            <field name="arch" type="xml">
+                <form>
+                    <field name="borrower"></field>
+                    <field name="list_book">
+                        <field name="name"/>
+                        <field name="author"/>
+                    </field>
+                </form>
+            </field>
+        </record>
+
+        <!--action-->
+        <record model="ir.actions.act_window" id="borrow_list_action">
+            <field name="name">Borrow List</field>
+            <field name="res_model">book_borrow</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!--submenu-->
+        <menuitem id="book_borrow" name="Borrow List" parent="book_child" action="borrow_list_action"/>
+    </data>
+</odoo>
