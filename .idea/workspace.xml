@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09ad6483-0dd9-4685-8c53-22f49c5cc6b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/addons/day2_inherit/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addons/day2_inherit/__manifest__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addons/day2_inherit/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addons/day2_inherit/models/res_partner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addons/day2_inherit/views/mass_mailing_views.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/storage_v2/_src_/database/Odoo_Training.ZMckbA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/storage_v2/_src_/database/Odoo_Training.ZMckbA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addons/day2_inherit/models/sale.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addons/day2_inherit/views/sale_views.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/day2_inherit/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/addons/day2_inherit/__manifest__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/day2_inherit/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/addons/day2_inherit/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/day2_inherit/models/res_partner.py" beforeDir="false" afterPath="$PROJECT_DIR$/addons/day2_inherit/models/res_partner.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +18,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/training$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1538480776463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/odoo" />
     <SUITE FILE_PATH="coverage/Odoo_training$Unnamed.coverage" NAME="Odoo_training Coverage Results" MODIFIED="1538533399808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../odoo" />
-    <SUITE FILE_PATH="coverage/Odoo_training$Odoo_training.coverage" NAME="Odoo_training Coverage Results" MODIFIED="1538540215781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../odoo" />
+    <SUITE FILE_PATH="coverage/Odoo_training$Odoo_training.coverage" NAME="Odoo_training Coverage Results" MODIFIED="1538543010486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../odoo" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -143,20 +141,20 @@
         <counts>
           <entry key="conf" value="4" />
           <entry key="odoo-bin" value="1" />
-          <entry key="py" value="25" />
+          <entry key="py" value="40" />
           <entry key="res_partner" value="1" />
           <entry key="sql" value="2" />
           <entry key="txt" value="2" />
-          <entry key="xml" value="13" />
+          <entry key="xml" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="1" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="26" />
+          <entry key="Python" value="41" />
           <entry key="Scratch" value="2" />
-          <entry key="XML" value="13" />
+          <entry key="XML" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -164,18 +162,18 @@
           <entry key="Python Console" value="22" />
           <entry key="conf" value="5" />
           <entry key="dummy" value="15" />
-          <entry key="py" value="157" />
+          <entry key="py" value="249" />
           <entry key="sql" value="41" />
           <entry key="txt" value="20" />
-          <entry key="xml" value="197" />
+          <entry key="xml" value="303" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Python" value="179" />
+          <entry key="Python" value="271" />
           <entry key="Scratch" value="41" />
-          <entry key="XML" value="197" />
+          <entry key="XML" value="303" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -184,59 +182,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/console.sql">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addons/day2_inherit/views/sale_views.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
+            <state relative-caret-position="105">
+              <caret line="7" column="85" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/day2_inherit/models/res_partner.py">
+        <entry file="file://$PROJECT_DIR$/addons/day2_inherit/models/sale.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
+            <state relative-caret-position="105">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding>
-                <marker date="1538538439945" expanded="true" signature="66:67" ph="..." />
+                <marker date="1538542975936" expanded="true" signature="74:75" ph="..." />
+                <marker date="1538542975936" expanded="true" signature="215:216" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/day2_inherit/__init__.py">
+        <entry file="file://$PROJECT_DIR$/addons/day2_inherit/__manifest__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/addons/day2_inherit/views/mass_mailing_views.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            <state relative-caret-position="270">
+              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../odoo/addons/mail/models/res_partner.py">
+        <entry file="file://$PROJECT_DIR$/../odoo/addons/sale/views/sale_views.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+            <state relative-caret-position="2065">
+              <caret line="274" column="60" selection-start-line="274" selection-start-column="49" selection-end-line="274" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../odoo/addons/mail/views/res_partner_views.xml">
+        <entry file="file://$PROJECT_DIR$/../odoo/addons/sale/models/sale.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="49" />
+            <state relative-caret-position="135">
+              <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="30" />
+              <folding>
+                <element signature="e#100#129#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -252,12 +245,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>act_window</find>
-      <find>book.name</find>
-      <find>book_borrow</find>
-      <find>borrower_tree</find>
-      <find>book_list</find>
-      <find>borrower_name</find>
       <find>borrower</find>
       <find>book_name</find>
       <find>name</find>
@@ -273,6 +260,21 @@
       <find>name=&quot;message_bounce&quot;</find>
       <find>message_bounce</find>
       <find>base.view_partner_form</find>
+      <find>_name = &quot;sale.order&quot;</find>
+      <find>sale_order_tag_rel</find>
+      <find>crm.lead.tag</find>
+      <find>opportunity_id</find>
+      <find>order_line</find>
+      <find>sale.order.line</find>
+      <find>inherit_sale_views</find>
+      <find>Unit Price</find>
+      <find>qty_delivered</find>
+      <find>sale.report</find>
+      <find>Subtotal</find>
+      <find>id=&quot;view_order_form</find>
+      <find>sale.order.form</find>
+      <find>sale.order</find>
+      <find>view_order_line_tree</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -301,12 +303,14 @@
         <option value="$PROJECT_DIR$/addons/sale_inherit/models/__init__.py" />
         <option value="$PROJECT_DIR$/addons/sale_inherit/models/sale.py" />
         <option value="$PROJECT_DIR$/addons/sale_inherit/__manifest__.py" />
-        <option value="$PROJECT_DIR$/addons/day2_inherit/models/res_partner.py" />
-        <option value="$PROJECT_DIR$/addons/day2_inherit/__manifest__.py" />
-        <option value="$PROJECT_DIR$/addons/day2_inherit/models/__init__.py" />
-        <option value="$PROJECT_DIR$/addons/sale_inherit/views/sale.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/console.sql" />
         <option value="$PROJECT_DIR$/addons/day2_inherit/views/mass_mailing_views.xml" />
+        <option value="$PROJECT_DIR$/addons/day2_inherit/models/res_partner.py" />
+        <option value="$PROJECT_DIR$/addons/sale_inherit/views/sale.xml" />
+        <option value="$PROJECT_DIR$/addons/day2_inherit/models/__init__.py" />
+        <option value="$PROJECT_DIR$/addons/day2_inherit/views/sale_views.xml" />
+        <option value="$PROJECT_DIR$/addons/day2_inherit/models/sale.py" />
+        <option value="$PROJECT_DIR$/addons/day2_inherit/__manifest__.py" />
       </list>
     </option>
   </component>
@@ -385,6 +389,26 @@
             <path>
               <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
               <item name="Odoo_training" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="sale_inherit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Odoo_training" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="sale_inherit" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Odoo_training" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="sale_inherit" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Odoo_training" type="462c0819:PsiDirectoryNode" />
               <item name="odoo_conf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -400,21 +424,34 @@
               <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
               <item name="odoo" type="462c0819:PsiDirectoryNode" />
               <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="mail" type="462c0819:PsiDirectoryNode" />
+              <item name="sale" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
               <item name="odoo" type="462c0819:PsiDirectoryNode" />
               <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="mail" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="sale" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
               <item name="odoo" type="462c0819:PsiDirectoryNode" />
               <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="mail" type="462c0819:PsiDirectoryNode" />
+              <item name="sale" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="sale_crm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="sale_crm" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -517,7 +554,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008301" side_tool="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32972974" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4997233" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4997233" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -561,28 +598,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/odoo/odoo.conf" />
-    <entry file="file://$PROJECT_DIR$/addons/book_bk/views/book.xml" />
-    <entry file="file://$PROJECT_DIR$/addons/book_bk/models/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/addons/book_bk/views/borrow.xml" />
-    <entry file="file://$PROJECT_DIR$/addons/book_bk/__init__.py" />
-    <entry file="das://b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/role/postgres">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/role/odoodev">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/database/postgres/access-method/spgist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/role/casnova_jam">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -657,13 +672,6 @@
     <entry file="file://$PROJECT_DIR$/../odoo/addons/account/views/account.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../odoo/addons/sale/views/sale_views.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="186" column="146" lean-forward="true" selection-start-line="186" selection-start-column="146" selection-end-line="186" selection-end-column="146" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addons/sale_inherit/models/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -695,13 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="71" column="69" lean-forward="true" selection-start-line="71" selection-start-column="69" selection-end-line="71" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../odoo/addons/sale/models/sale.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -751,27 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/day2_inherit/__manifest__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/sale_inherit/views/sale.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="62" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/day2_inherit/models/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -800,20 +780,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/day2_inherit/models/res_partner.py">
+    <entry file="file://$PROJECT_DIR$/../odoo/odoo/fields.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
-          <folding>
-            <marker date="1538538439945" expanded="true" signature="66:67" ph="..." />
-          </folding>
+        <state relative-caret-position="223">
+          <caret line="2301" column="8" selection-start-line="2301" selection-start-column="8" selection-end-line="2301" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/crm/models/crm_lead.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="1162" column="13" selection-start-line="1162" selection-start-column="13" selection-end-line="1162" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/sale_crm/views/sale_order_views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/event_sale/views/sale_order_views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/sale_crm/models/sale_order.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addons/day2_inherit/views/mass_mailing_views.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="195">
+          <caret line="13" column="18" lean-forward="true" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/day2_inherit/models/res_partner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding>
+            <marker date="1538541123179" expanded="true" signature="66:67" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/day2_inherit/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/sale_inherit/views/sale.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/sale/report/sale_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/sale/models/sale.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#100#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/sale/views/sale_views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2065">
+          <caret line="274" column="60" selection-start-line="274" selection-start-column="49" selection-end-line="274" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/day2_inherit/__manifest__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/day2_inherit/models/sale.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <marker date="1538542975936" expanded="true" signature="74:75" ph="..." />
+            <marker date="1538542975936" expanded="true" signature="215:216" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/day2_inherit/views/sale_views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="85" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
         </state>
       </provider>
     </entry>

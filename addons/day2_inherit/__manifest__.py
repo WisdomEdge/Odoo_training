@@ -13,9 +13,10 @@ Odoo Training
     'category': 'Odoo Training',
     'website': 'https://www.odoo.com/page/billing',
     'images' : ['images/accounts.jpeg','images/bank_statement.jpeg','images/cash_register.jpeg','images/chart_of_accounts.jpeg','images/customer_invoice.jpeg','images/journal_entries.jpeg'],
-    'depends' : ['mail'],
+    'depends' : ['mail', 'sale'],
     'data': [
-        'views/mass_mailing_views.xml'
+        'views/mass_mailing_views.xml',
+        'views/sale_views.xml'
     ],
     'installable': True,
     'application': True,
