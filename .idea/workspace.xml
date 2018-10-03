@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09ad6483-0dd9-4685-8c53-22f49c5cc6b6" name="Default Changelist" comment="">
-      <change beforePath="$USER_HOME$/odoo/requirements.txt" beforeDir="false" afterPath="$USER_HOME$/odoo/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addons/sale_inherit/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addons/sale_inherit/__manifest__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addons/sale_inherit/models/sale.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/training.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_conf/odoo.conf" beforeDir="false" afterPath="$PROJECT_DIR$/odoo_conf/odoo.conf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +23,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/training$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1538480776463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/odoo" />
+    <SUITE FILE_PATH="coverage/Odoo_training$Unnamed.coverage" NAME="Odoo_training Coverage Results" MODIFIED="1538533399808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../odoo" />
+    <SUITE FILE_PATH="coverage/Odoo_training$Odoo_training.coverage" NAME="Odoo_training Coverage Results" MODIFIED="1538536219719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../odoo" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -27,44 +40,11 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="Odoo_Training@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="access methods" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="Odoo_Training@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="roles" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
@@ -123,64 +103,161 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1715815701">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="conf" value="4" />
+          <entry key="odoo-bin" value="1" />
+          <entry key="py" value="9" />
+          <entry key="sql" value="1" />
+          <entry key="txt" value="2" />
+          <entry key="xml" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="10" />
+          <entry key="Scratch" value="1" />
+          <entry key="XML" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="22" />
+          <entry key="conf" value="5" />
+          <entry key="py" value="140" />
+          <entry key="sql" value="28" />
+          <entry key="txt" value="20" />
+          <entry key="xml" value="163" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="Python" value="162" />
+          <entry key="Scratch" value="28" />
+          <entry key="XML" value="163" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/book/views/book.xml">
+        <entry file="file://$PROJECT_DIR$/odoo_conf/odoo.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+            <state relative-caret-position="30">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/book/views/borrower.xml">
+        <entry file="file://$PROJECT_DIR$/addons/sale_inherit/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="13" selection-end-column="17" />
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addons/sale_inherit/__manifest__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addons/sale_inherit/models/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addons/sale_inherit/models/sale.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="20" />
+              <folding>
+                <marker date="1538535839420" expanded="true" signature="68:69" ph="..." />
+                <marker date="1538535839420" expanded="true" signature="68:73" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/addons/book/models/book.py">
+        <entry file="file://$PROJECT_DIR$/addons/sale_inherit/views/sale.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="195">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/book/views/borrow_list.xml">
+        <entry file="file://$PROJECT_DIR$/../odoo/addons/sale/views/sale_views.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="24" selection-end-column="46" />
+            <state relative-caret-position="167">
+              <caret line="186" column="146" lean-forward="true" selection-start-line="186" selection-start-column="146" selection-end-line="186" selection-end-column="146" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/book/__init__.py">
+        <entry file="file://$PROJECT_DIR$/../odoo/addons/account/views/account_invoice_view.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="-1305" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="24" selection-start-column="24" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/book/__manifest__.py">
+        <entry file="file://$PROJECT_DIR$/../odoo/addons/sale/models/sale.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            <state relative-caret-position="225">
+              <caret line="15" column="22" selection-start-line="15" selection-end-line="16" />
+              <folding>
+                <element signature="e#100#129#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -193,10 +270,13 @@
       <find>borrower</find>
       <find>book_name</find>
       <find>name</find>
+      <find>xpath</find>
+      <find>view_order_form</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/odoo" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -214,6 +294,14 @@
         <option value="$PROJECT_DIR$/addons/book/views/borrower.xml" />
         <option value="$PROJECT_DIR$/addons/book/views/borrow_list.xml" />
         <option value="$PROJECT_DIR$/addons/book/models/book.py" />
+        <option value="$PROJECT_DIR$/../odoo/requirements.txt" />
+        <option value="$PROJECT_DIR$/odoo_conf/odoo.conf" />
+        <option value="$PROJECT_DIR$/addons/sale_inherit/models.py" />
+        <option value="$PROJECT_DIR$/addons/sale_inherit/models/__init__.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/console.sql" />
+        <option value="$PROJECT_DIR$/addons/sale_inherit/models/sale.py" />
+        <option value="$PROJECT_DIR$/addons/sale_inherit/__manifest__.py" />
+        <option value="$PROJECT_DIR$/addons/sale_inherit/views/sale.xml" />
       </list>
     </option>
   </component>
@@ -225,9 +313,9 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$USER_HOME$/odoo/addons/pad/static/plugin/ep_disable_init_focus/package.json" />
-      <path value="$USER_HOME$/odoo/addons/web/package.json" />
-      <path value="$USER_HOME$/odoo/addons/web/static/lib/es5-shim/package.json" />
+      <path value="$PROJECT_DIR$/../odoo/addons/pad/static/plugin/ep_disable_init_focus/package.json" />
+      <path value="$PROJECT_DIR$/../odoo/addons/web/package.json" />
+      <path value="$PROJECT_DIR$/../odoo/addons/web/static/lib/es5-shim/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -235,6 +323,20 @@
     <option name="y" value="27" />
     <option name="width" value="1186" />
     <option name="height" value="636" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -247,42 +349,93 @@
         <subPane>
           <expand>
             <path>
-              <item name="training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Odoo_training" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Odoo_training" type="462c0819:PsiDirectoryNode" />
               <item name="addons" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Odoo_training" type="462c0819:PsiDirectoryNode" />
               <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="day1_book" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Odoo_training" type="462c0819:PsiDirectoryNode" />
               <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="day1_book" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Odoo_training" type="462c0819:PsiDirectoryNode" />
               <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="day1_book" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Odoo_training" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="sale_inherit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Odoo_training" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="sale_inherit" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Odoo_training" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="sale_inherit" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Odoo_training" type="462c0819:PsiDirectoryNode" />
+              <item name="odoo_conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
               <item name="odoo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
               <item name="odoo" type="462c0819:PsiDirectoryNode" />
               <item name="addons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="sale" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="sale" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -293,13 +446,22 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/odoo/odoo-bin" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../odoo/odoo-bin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+      </console-settings>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/addons/sale_inherit" />
       <recent name="$PROJECT_DIR$/addons" />
       <recent name="$PROJECT_DIR$/addons/book" />
       <recent name="$PROJECT_DIR$/addons/book/views" />
@@ -318,21 +480,21 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="Odoo_training" type="PythonConfigurationType" factoryName="Python">
       <module name="training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/odoo" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../odoo" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/odoo/odoo-bin" />
-      <option name="PARAMETERS" value="-c $USER_HOME$/odoo/odoo.conf" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../odoo/odoo-bin" />
+      <option name="PARAMETERS" value="-c $PROJECT_DIR$/odoo_conf/odoo.conf" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -342,7 +504,7 @@
     </configuration>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -355,32 +517,34 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="25" width="1327" height="743" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23028883" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2412839" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32972974" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.18923327" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24632953" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997233" visible="true" weight="0.2454054" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997233" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32972974" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002767" side_tool="true" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32972974" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4997233" visible="true" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32943013" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32927504" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,59 +554,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/odoo/addons/analytic/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/odoo/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/odoo/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/book_bk/__manifest__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/odoo/odoo.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/book_bk/views/book.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/book_bk/models/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/book_bk/views/borrow.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" lean-forward="true" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/book_bk/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/odoo/addons/analytic/__init__.py" />
+    <entry file="file://$USER_HOME$/odoo/requirements.txt" />
+    <entry file="file://$USER_HOME$/odoo/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/addons/book_bk/__manifest__.py" />
+    <entry file="file://$USER_HOME$/odoo/odoo.conf" />
+    <entry file="file://$PROJECT_DIR$/addons/book_bk/views/book.xml" />
+    <entry file="file://$PROJECT_DIR$/addons/book_bk/models/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/addons/book_bk/views/borrow.xml" />
+    <entry file="file://$PROJECT_DIR$/addons/book_bk/__init__.py" />
     <entry file="das://b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/role/postgres">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -463,71 +583,152 @@
     <entry file="das://b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/role/casnova_jam">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/book_bk/models/book.py">
+    <entry file="file://$PROJECT_DIR$/addons/book_bk/models/book.py" />
+    <entry file="file://$USER_HOME$/odoo/odoo/fields.py" />
+    <entry file="file://$PROJECT_DIR$/addons/book/models/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/addons/book/__manifest__.py" />
+    <entry file="file://$PROJECT_DIR$/addons/book/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/addons/book/views/book.xml" />
+    <entry file="file://$PROJECT_DIR$/addons/book/views/borrower.xml" />
+    <entry file="file://$PROJECT_DIR$/addons/book/views/borrow_list.xml" />
+    <entry file="file://$PROJECT_DIR$/addons/book/models/book.py" />
+    <entry file="file://$PROJECT_DIR$/../odoo/odoo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/passlib/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../odoo/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../odoo/odoo-bin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/day1_book/views/borrower.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/odoo_conf/odoo_training.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/odoo_conf/odoo.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/sale_inherit/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/sale_inherit/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/sale/models/sale.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="22" selection-start-line="15" selection-end-line="16" />
           <folding>
-            <marker date="1538463786440" expanded="true" signature="68:69" ph="..." />
+            <element signature="e#100#129#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/odoo/odoo/fields.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="2164" column="57" selection-start-line="2164" selection-start-column="45" selection-end-line="2164" selection-end-column="57" />
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/book/models/__init__.py">
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/account/views/account.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/account/views/account_invoice_view.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        <state relative-caret-position="-1305" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/sale_inherit/__manifest__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/book/__manifest__.py">
+    <entry file="file://$PROJECT_DIR$/addons/sale_inherit/models/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/book/__init__.py">
+    <entry file="file://$PROJECT_DIR$/addons/sale_inherit/models/sale.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="75">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <marker date="1538535839420" expanded="true" signature="68:69" ph="..." />
+            <marker date="1538535839420" expanded="true" signature="68:73" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/book/views/book.xml">
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/sale/views/sale_views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="186" column="146" lean-forward="true" selection-start-line="186" selection-start-column="146" selection-end-line="186" selection-end-column="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/sale_inherit/views/sale.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/book/views/borrower.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/book/views/borrow_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="24" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/book/models/book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
