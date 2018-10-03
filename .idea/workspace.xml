@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09ad6483-0dd9-4685-8c53-22f49c5cc6b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/addons/sale_inherit/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addons/sale_inherit/__manifest__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addons/sale_inherit/models/sale.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addons/day2_inherit/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addons/day2_inherit/__manifest__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addons/day2_inherit/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addons/day2_inherit/models/res_partner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addons/day2_inherit/views/mass_mailing_views.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/training.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/storage_v2/_src_/database/Odoo_Training.ZMckbA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/storage_v2/_src_/database/Odoo_Training.ZMckbA/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odoo_conf/odoo.conf" beforeDir="false" afterPath="$PROJECT_DIR$/odoo_conf/odoo.conf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +20,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/training$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1538480776463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/odoo" />
     <SUITE FILE_PATH="coverage/Odoo_training$Unnamed.coverage" NAME="Odoo_training Coverage Results" MODIFIED="1538533399808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../odoo" />
-    <SUITE FILE_PATH="coverage/Odoo_training$Odoo_training.coverage" NAME="Odoo_training Coverage Results" MODIFIED="1538536219719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../odoo" />
+    <SUITE FILE_PATH="coverage/Odoo_training$Odoo_training.coverage" NAME="Odoo_training Coverage Results" MODIFIED="1538540215781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../odoo" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -45,7 +41,37 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="Odoo_Training@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="roles" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Odoo_Training@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="Odoo_Training: database" type="6d9b600a:PostgresImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Odoo_Training@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="Odoo_Training: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Odoo_Training@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="Odoo_Training: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Odoo_Training@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="Odoo_Training: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
     <select />
@@ -117,36 +143,39 @@
         <counts>
           <entry key="conf" value="4" />
           <entry key="odoo-bin" value="1" />
-          <entry key="py" value="9" />
-          <entry key="sql" value="1" />
+          <entry key="py" value="25" />
+          <entry key="res_partner" value="1" />
+          <entry key="sql" value="2" />
           <entry key="txt" value="2" />
-          <entry key="xml" value="5" />
+          <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Database Element" value="1" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="10" />
-          <entry key="Scratch" value="1" />
-          <entry key="XML" value="5" />
+          <entry key="Python" value="26" />
+          <entry key="Scratch" value="2" />
+          <entry key="XML" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="22" />
           <entry key="conf" value="5" />
-          <entry key="py" value="140" />
-          <entry key="sql" value="28" />
+          <entry key="dummy" value="15" />
+          <entry key="py" value="157" />
+          <entry key="sql" value="41" />
           <entry key="txt" value="20" />
-          <entry key="xml" value="163" />
+          <entry key="xml" value="197" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="25" />
-          <entry key="Python" value="162" />
-          <entry key="Scratch" value="28" />
-          <entry key="XML" value="163" />
+          <entry key="PLAIN_TEXT" value="40" />
+          <entry key="Python" value="179" />
+          <entry key="Scratch" value="41" />
+          <entry key="XML" value="197" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -156,96 +185,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/odoo_conf/odoo.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/sale_inherit/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/sale_inherit/__manifest__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/sale_inherit/models/__init__.py">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/console.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/sale_inherit/models/sale.py">
+        <entry file="file://$PROJECT_DIR$/addons/day2_inherit/models/res_partner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="20" />
+            <state>
+              <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
               <folding>
-                <marker date="1538535839420" expanded="true" signature="68:69" ph="..." />
-                <marker date="1538535839420" expanded="true" signature="68:73" ph="..." />
+                <marker date="1538538439945" expanded="true" signature="66:67" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addons/day2_inherit/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/addons/sale_inherit/views/sale.xml">
+        <entry file="file://$PROJECT_DIR$/addons/day2_inherit/views/mass_mailing_views.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            <state relative-caret-position="210">
+              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../odoo/addons/sale/views/sale_views.xml">
+        <entry file="file://$PROJECT_DIR$/../odoo/addons/mail/models/res_partner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="186" column="146" lean-forward="true" selection-start-line="186" selection-start-column="146" selection-end-line="186" selection-end-column="146" />
+            <state relative-caret-position="180">
+              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../odoo/addons/account/views/account_invoice_view.xml">
+        <entry file="file://$PROJECT_DIR$/../odoo/addons/mail/views/res_partner_views.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1305" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../odoo/addons/sale/models/sale.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="22" selection-start-line="15" selection-end-line="16" />
-              <folding>
-                <element signature="e#100#129#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="49" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -272,6 +263,16 @@
       <find>name</find>
       <find>xpath</find>
       <find>view_order_form</find>
+      <find>Customers</find>
+      <find>res.partner</find>
+      <find>_name = &quot;res.partner&quot;</find>
+      <find>_name = 'res.partner'</find>
+      <find>inherit_sale_view</find>
+      <find>sale.view_order_form</find>
+      <find>res_partner_view</find>
+      <find>name=&quot;message_bounce&quot;</find>
+      <find>message_bounce</find>
+      <find>base.view_partner_form</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -298,10 +299,14 @@
         <option value="$PROJECT_DIR$/odoo_conf/odoo.conf" />
         <option value="$PROJECT_DIR$/addons/sale_inherit/models.py" />
         <option value="$PROJECT_DIR$/addons/sale_inherit/models/__init__.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/console.sql" />
         <option value="$PROJECT_DIR$/addons/sale_inherit/models/sale.py" />
         <option value="$PROJECT_DIR$/addons/sale_inherit/__manifest__.py" />
+        <option value="$PROJECT_DIR$/addons/day2_inherit/models/res_partner.py" />
+        <option value="$PROJECT_DIR$/addons/day2_inherit/__manifest__.py" />
+        <option value="$PROJECT_DIR$/addons/day2_inherit/models/__init__.py" />
         <option value="$PROJECT_DIR$/addons/sale_inherit/views/sale.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/console.sql" />
+        <option value="$PROJECT_DIR$/addons/day2_inherit/views/mass_mailing_views.xml" />
       </list>
     </option>
   </component>
@@ -361,40 +366,20 @@
               <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
               <item name="Odoo_training" type="462c0819:PsiDirectoryNode" />
               <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="day1_book" type="462c0819:PsiDirectoryNode" />
+              <item name="day2_inherit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
               <item name="Odoo_training" type="462c0819:PsiDirectoryNode" />
               <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="day1_book" type="462c0819:PsiDirectoryNode" />
+              <item name="day2_inherit" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
               <item name="Odoo_training" type="462c0819:PsiDirectoryNode" />
               <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="day1_book" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Odoo_training" type="462c0819:PsiDirectoryNode" />
-              <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="sale_inherit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Odoo_training" type="462c0819:PsiDirectoryNode" />
-              <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="sale_inherit" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Odoo_training" type="462c0819:PsiDirectoryNode" />
-              <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="sale_inherit" type="462c0819:PsiDirectoryNode" />
+              <item name="day2_inherit" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -415,27 +400,21 @@
               <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
               <item name="odoo" type="462c0819:PsiDirectoryNode" />
               <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="mail" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
               <item name="odoo" type="462c0819:PsiDirectoryNode" />
               <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="odoo" type="462c0819:PsiDirectoryNode" />
-              <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="sale" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="odoo" type="462c0819:PsiDirectoryNode" />
-              <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="sale" type="462c0819:PsiDirectoryNode" />
+              <item name="mail" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Odoo_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odoo" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="mail" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -461,10 +440,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/addons/day2_inherit/models" />
+      <recent name="$PROJECT_DIR$/addons/day2_inherit" />
       <recent name="$PROJECT_DIR$/addons/sale_inherit" />
       <recent name="$PROJECT_DIR$/addons" />
       <recent name="$PROJECT_DIR$/addons/book" />
-      <recent name="$PROJECT_DIR$/addons/book/views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -520,13 +500,13 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2412839" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2412839" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32972974" />
+      <window_info anchor="bottom" id="Database Console" sideWeight="0.4991699" weight="0.32972974" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.18923327" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997233" visible="true" weight="0.2454054" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4997233" visible="true" weight="0.2454054" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997233" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -534,7 +514,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32972974" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002767" side_tool="true" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008301" side_tool="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32972974" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4997233" visible="true" weight="0.32972974" />
@@ -546,6 +526,33 @@
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32927504" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2412839" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="0" sideWeight="0.4991699" weight="0.32972974" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.18923327" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4997233" weight="0.2454054" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4997233" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32972974" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5008301" side_tool="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32972974" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4997233" visible="true" weight="0.32972974" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32927504" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -554,10 +561,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/odoo/addons/analytic/__init__.py" />
-    <entry file="file://$USER_HOME$/odoo/requirements.txt" />
-    <entry file="file://$USER_HOME$/odoo/LICENSE" />
-    <entry file="file://$PROJECT_DIR$/addons/book_bk/__manifest__.py" />
     <entry file="file://$USER_HOME$/odoo/odoo.conf" />
     <entry file="file://$PROJECT_DIR$/addons/book_bk/views/book.xml" />
     <entry file="file://$PROJECT_DIR$/addons/book_bk/models/__init__.py" />
@@ -651,35 +654,13 @@
     <entry file="file://$PROJECT_DIR$/addons/sale_inherit/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../odoo/addons/sale/models/sale.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="22" selection-start-line="15" selection-end-line="16" />
-          <folding>
-            <element signature="e#100#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../odoo/addons/account/views/account.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../odoo/addons/account/views/account_invoice_view.xml">
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/sale/views/sale_views.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1305" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/sale_inherit/__manifest__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="167">
+          <caret line="186" column="146" lean-forward="true" selection-start-line="186" selection-start-column="146" selection-end-line="186" selection-end-column="146" />
         </state>
       </provider>
     </entry>
@@ -690,10 +671,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/mass_mailing/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/mass_mailing/__manifest__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/account/models/partner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="222" column="38" lean-forward="true" selection-start-line="222" selection-start-column="38" selection-end-line="222" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../odoo/odoo/addons/base/res/res_partner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="122" column="19" lean-forward="true" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/account/views/account_invoice_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="71" column="69" lean-forward="true" selection-start-line="71" selection-start-column="69" selection-end-line="71" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/sale/models/sale.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/crm/views/crm_lead_views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/sale_inherit/__manifest__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/addons/sale_inherit/models/sale.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="20" />
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
           <folding>
             <marker date="1538535839420" expanded="true" signature="68:69" ph="..." />
             <marker date="1538535839420" expanded="true" signature="68:73" ph="..." />
@@ -701,17 +730,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../odoo/addons/sale/views/sale_views.xml">
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/sale/views/res_partner_views.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="186" column="146" lean-forward="true" selection-start-line="186" selection-start-column="146" selection-end-line="186" selection-end-column="146" />
+        <state relative-caret-position="403">
+          <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/database/Odoo_Training/schema/public/table/res_partner">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/mass_mailing/views/mass_mailing_views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/day2_inherit/__manifest__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addons/sale_inherit/views/sale.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="75">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/day2_inherit/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b4b04db0-8dc0-43b9-a52f-bbdfdf6e8449/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/day2_inherit/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/mail/models/res_partner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../odoo/addons/mail/views/res_partner_views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/day2_inherit/models/res_partner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
+          <folding>
+            <marker date="1538538439945" expanded="true" signature="66:67" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/day2_inherit/views/mass_mailing_views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
         </state>
       </provider>
     </entry>
